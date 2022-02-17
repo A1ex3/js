@@ -1,5 +1,22 @@
 @charset "utf-8";
 
 body {
-    font-family:Georgia;
+    font-family: Georgia;
+    background-image: url("https://proprikol.ru/wp-content/uploads/2020/09/kartinki-losyasha-32.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    margin:auto;
+    width:50%;
+}
+
+.a:active {
+    border: 2px solid black;
+    background-color: #202124;
+    color: white
+}
+
+.b:active {
+    border: 2px solid black;
+    background-color: #202124;
+    color: white
 }
