@@ -5,8 +5,8 @@ function draw() {
 	ctx.stroke();
 	ctx.fillStyle = "pink"; //цвет заливки
 	ctx.beginPath();
-	ctx.moveTo(225, 150);
-	ctx.lineTo(75, 100);
-	ctx.lineTo(200, 50);
-	ctx.fill();
+	ctx.lineWidth = 5; // толщина линии
+	// x,y,radius,startAngle,endAngle,anticlockwise
+	ctx.arc(200, 200, 75, 0, 2 * Math.PI, true);
+	ctx.stroke();
 }
