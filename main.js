@@ -12,4 +12,13 @@ function draw() {
 	ctx.arc(150, 150, 85, 0, 2 * pi, false);
 	ctx.stroke();
 	ctx.fill();
+
+
+	ctx.beginPath();
+	ctx.lineWidth = 7;
+	ctx.strokeStyle = "gray";
+	ctx.fillStyle = "pink";
+	ctx.arc(250, 150, 85, 0, 2 * pi, false);
+	ctx.stroke();
+	ctx.fill();
 }
