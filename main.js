@@ -8,5 +8,6 @@ function draw() {
 	ctx.lineTo(500, 200);
 	ctx.strokeStyle = "pink"; //цвет линии
 	ctx.lineWidth = "10"; //толщина линии
-	ctx.stroke(); // обводка линии   
+	ctx.lineTo(500, 50);
+	ctx.stroke();
 }
