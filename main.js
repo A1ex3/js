@@ -14,11 +14,10 @@ function draw() {
 	ctx.fill();
 
 
-	ctx.beginPath();
-	ctx.lineWidth = 7;
-	ctx.strokeStyle = "gray";
-	ctx.fillStyle = "pink";
-	ctx.arc(250, 150, 85, 0, 2 * pi, false);
-	ctx.stroke();
-	ctx.fill();
+	ctx.beginPath(); // начало нового пути
+	ctx.lineWidth = 7; // толщина обводки
+	ctx.strokeStyle = "green"; // цвет обводки
+	ctx.moveTo(75, 150); // координаты начальной точки
+	ctx.quadraticCurveTo(150, 0, 300, 150); // координаты точки искривления и конечной точки
+	ctx.stroke(); // команда обводки     
 }
