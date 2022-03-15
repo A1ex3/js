@@ -1,0 +1,67 @@
+@import 'fonts';
+@import 'vars';
+@import 'global';
+
+
+.hide{
+  display: none;
+}
+.car,
+.enemy{
+  width: 50px;
+  height: 100px;
+  background: transparent url('../images/content/enemy.png') center / cover  no-repeat;
+  position: absolute;
+}
+.gameArea{
+  width: 300px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  background: grey;
+  overflow: hidden;
+}
+.line{
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  background: #fff;
+  left: 145px;
+}
+.start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 2rem 0;
+  text-align: center;
+  z-index: 200;
+}
+.score{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  z-index: 200;
+  text-align: center;
+  color: aquamarine;
+}
+
+
+
+
+
+@import 'media';

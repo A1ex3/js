@@ -1,0 +1,14 @@
+table{
+	border-collapse:collapse;
+}
+td,th{
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px 10px;
+}
+th{
+	background-color: green
+}
+img{
+	width: 200px
+}
