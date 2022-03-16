@@ -1,10 +1,71 @@
-.ui-draggable {
-padding:15px;
-border-style:solid;
-border-width:1px;
-width:130px;
-height:100px; 
+#el1, #el2, #el3 {
+    border-style: solid;
+    border-width: 1px;
+    height: 180px;
+    width: 200px;
 }
-.ui-draggable-dragging {
-background-color:#ecbfda;
+
+#head {
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: #049797;
+    background-color: #049797;
+}
+
+#cont {
+    padding: 8px;
+}
+
+#el2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#el3 {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+}
+
+#drop1 {
+    border: 1px solid;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    height: 180px;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#drop2 {
+    border: 1px solid;
+    position: absolute;
+    top: 270px;
+    left: 260px;
+    height: 180px;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#sort1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+
+    #sort1 li {
+        margin: 2px;
+        padding: 0.4em;
+        border-style: solid;
+        border-width: 1px;
+        height: 18px;
+    }
+
+#wrap1 {
+    position: relative;
 }
