@@ -1,3 +1,3 @@
-function buttonClick() {
-    $("#input").attr("src", "2.jpg");
+function buttonClick(elem) {
+	alert(elem.value);
 }
