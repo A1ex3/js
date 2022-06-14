@@ -1,3 +1,3 @@
 function buttonClick() {
-	alert($('#input').val());
+	alert(Math.pow($('#input').val(),2));
 }
