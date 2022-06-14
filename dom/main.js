@@ -1,3 +1,3 @@
 function buttonClick() {
-	var input = $('#input').val("!!!");
+	alert($('#input').val());
 }
