@@ -1,4 +1,3 @@
 function buttonClick() {
-	var input = document.getElementById('input');
-	input.value = 'Ой, я поменял свой текст!';
+    $("#input").attr("src", "2.jpg");
 }
