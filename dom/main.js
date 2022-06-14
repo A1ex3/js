@@ -1,3 +1,3 @@
-function buttonClick(elem) {
-	elem.value = 'Новый текст кнопки';
+function buttonClick() {
+	document.getElementById('input').style.color = 'red';
 }
