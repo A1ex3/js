@@ -1,4 +1,3 @@
-function msg()
-{
-    alert("Привет!");
+function buttonClick() {
+	var input = $('#input').val("!!!");
 }
