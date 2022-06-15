@@ -1,3 +1,4 @@
 function go() {
-	$('#test').val('Теперь я плаваю справа!').css('cssFloat','right');
+	elem = document.getElementById('test');
+	elem.value = 'Мои css классы: ' + elem.className;
 }
