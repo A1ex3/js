@@ -1,7 +1,6 @@
 function go() {
-	var test1 = document.getElementById('test1');
-	var test2 = document.getElementById('test2');
-	var tmp = test1.value;
-	test1.value = test2.value;
-	test2.value = tmp;
+	var test = document.getElementById('test');
+	var value = test.value;
+	var result = document.getElementById('result');
+	result.value = value * value;
 }
