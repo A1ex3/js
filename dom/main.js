@@ -1,3 +1,3 @@
-function go(elem) {
-	elem.value = parseInt(elem.value) + 1;
+function go() {
+	$('#test').val('Теперь я плаваю справа!').css('cssFloat','right');
 }
