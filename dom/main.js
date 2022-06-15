@@ -1,3 +1,7 @@
-function go() {
-    $('#test').css('color', 'red');
+function hide() {
+    $('#test').css('display','none');
+}
+
+function show() {
+    $('#test').css('display', 'inline-block');
 }
