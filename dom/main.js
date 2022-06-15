@@ -1,3 +1,4 @@
-function go() {
-	$('#test').attr('disabled', true).css('cursor', 'not-allowed');
+function add(text) {
+	var input = document.getElementById('input');
+	input.value = input.value + text;
 }
